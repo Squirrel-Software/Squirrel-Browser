@@ -26,7 +26,7 @@ const lists = [
 app.setName('Squirrel')
 app.userAgentFallback = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Squirrel/0.0.1 Chrome/112.0.0.0 Safari/537.3';
 app.on('ready', () => {
-	protocol.registerHttpProtocol('squirrel', (request, callback) => {
+	protocol.registerHttpProtocol('Squirrel', (request, callback) => {
 	  const url = request.url.substr(7) // remove the `squirrel://` protocol prefix
 	  callback({path: url})
 	})
@@ -36,6 +36,8 @@ app.on('ready', () => {
 
 // Updater
 const update = require('./functions/update.js');
+console.log("Update Found")
+console.log("Updating...")
 update();
 
 // Discord RPC
