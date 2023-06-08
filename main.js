@@ -32,7 +32,6 @@ app.on('ready', () => {
 	})
   })
 
-// Funkce
 
 // Updater
 const update = require('./functions/update.js');
@@ -44,7 +43,6 @@ update();
 const rpc = require('./functions/rpc-discord.js');
 rpc();
 
-// Context menu (Right-click functions) - MELOUN7
 app.on("web-contents-created", (event, contents) => {
 	if (contents.getType() === 'webview') {
 	   contextMenu({

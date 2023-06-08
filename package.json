@@ -13,7 +13,6 @@
 		"watch": "postcss src/style.css -o public/assets/styles/style.css -w"
 	},
 	"build": {
-		"appId": "squirrel.org",
 		"icon": "./logo.ico"
 	},
 	"main": "main.js",
