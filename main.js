@@ -93,7 +93,7 @@ app.once('ready', () => {
 
 function createMainWindow() {
 	const mainWindow = new BrowserWindow({
-		width: 1920,
+		width: 800,
 		height: 1080,
 		icon: 'logo.png',
 		frame: false,
