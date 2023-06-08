@@ -9,7 +9,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "electron .",
 		"build": "electron-packager . Squirrel Browser --platform=win32 --arch=ia32 --icon=logo.ico --prune=true --out=builds --asar=true --overwrite -p always",
-		"build-win": "electron-builder build --win -p always",
+		"build-win": "electron-builder build --win",
 		"watch": "postcss src/style.css -o public/assets/styles/style.css -w"
 	},
 	"build": {
