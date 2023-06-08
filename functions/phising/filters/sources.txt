@@ -1,0 +1,11 @@
+https://github.com/jarelllama/Scam-Blocklist/blob/main/blacklist.txt
+https://github.com/jarelllama/Scam-Blocklist/blob/main/domains
+https://github.com/jarelllama/Scam-Blocklist/blob/main/domains.txt
+https://github.com/nikolaischunk/discord-phishing-links/blob/main/txt/domain-list.txt
+https://github.com/nikolaischunk/discord-phishing-links/blob/main/txt/suspicious-list.txt
+https://github.com/topics/scam-sites
+
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_light.txt
+https://github.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/blob/main/Google_hostnames.txt
+https://github.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/blob/main/Google_ipv4.txt
+https://openphish.com/feed.txt
